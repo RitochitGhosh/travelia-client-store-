@@ -20,7 +20,7 @@ const getPackages = async (query: Query): Promise<Package[]> => {
       sizeId: query.sizeId,
     },
   });
-  console.log("Fetching packages from URL:", url);
+  // console.log("Fetching packages from URL:", url); // passed
   const res = await fetch(url);
   const data = await res.json();
   console.log("Fetched packages:", data);
