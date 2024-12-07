@@ -2,10 +2,10 @@
 
 import { Package as PackageType } from "@/types";
 import Currency from "./ui/currency";
-import Button from "./ui/button";
 import { Luggage } from "lucide-react";
 import useCart from "@/hooks/use-cart";
 import { MouseEventHandler } from "react";
+import { Button } from "./ui/button";
 
 interface InfoProps {
   data: PackageType;

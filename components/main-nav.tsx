@@ -39,6 +39,7 @@ const MainNav: React.FC<MainNavProps> = ({ data }) => {
           {route.label}
         </Link>
       ))}
+      
     </nav>
   );
 };

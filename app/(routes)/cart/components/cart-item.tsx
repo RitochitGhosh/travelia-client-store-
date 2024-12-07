@@ -8,6 +8,7 @@ import IconButton from "@/components/ui/icon-button";
 import Currency from "@/components/ui/currency";
 import useCart from "@/hooks/use-cart";
 import { Package } from "@/types";
+import { useEffect, useState } from "react";
 
 interface CartItemProps {
     data: Package;
@@ -16,6 +17,7 @@ interface CartItemProps {
 const CartItem:React.FC<CartItemProps> = ({
     data
 }) => {
+
     const cart = useCart();
 
     const onRemove = () => {

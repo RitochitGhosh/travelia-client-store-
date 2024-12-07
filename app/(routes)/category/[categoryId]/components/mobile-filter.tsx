@@ -1,6 +1,5 @@
 "use client";
 
-import Button from "@/components/ui/button";
 import IconButton from "@/components/ui/icon-button";
 import { Duration, Size } from "@/types";
 import { Dialog } from "@headlessui/react";
@@ -8,6 +7,7 @@ import { on } from "events";
 import { Plus, X } from "lucide-react";
 import { useState } from "react";
 import Filter from "./filter";
+import { Button } from "@/components/ui/button";
 
 interface MobileFiltersProps {
   sizes: Size[];

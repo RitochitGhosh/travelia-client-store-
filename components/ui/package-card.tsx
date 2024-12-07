@@ -2,7 +2,7 @@
 import { useRouter } from "next/navigation";
 import { MouseEventHandler } from "react";
 import Image from "next/image";
-import { Expand, ShoppingCart } from "lucide-react";
+import { Expand, MessageCircle, ShoppingCart } from "lucide-react";
 
 import Currency from "@/components/ui/currency";
 import IconButton from "@/components/ui/icon-button";
